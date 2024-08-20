@@ -50,11 +50,9 @@ Rectangle {
 
         Rectangle {
 
-        property int sizeAnim: 500
-
         id: imageSource
-        width:  sizeAnim
-        height: sizeAnim
+        width:  500
+        height: 500
         color:  "transparent"
         anchors.horizontalCenter: parent.horizontalCenter
         anchors.verticalCenter: parent.verticalCenter
@@ -66,8 +64,8 @@ Rectangle {
             paused: false
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.verticalCenter: parent.verticalCenter
-            width:  imageSoure.sizeAnim - 2
-            height: imageSoure.sizeAnim - 2
+            width:  500
+            height: 500
             smooth: true
             visible: true
          }
@@ -75,7 +73,6 @@ Rectangle {
 
        Image {
             id: busyIndicator
-            //in the middle of the remaining space
             y: parent.height - 200
             anchors.horizontalCenter: parent.horizontalCenter
             anchors.margins: units.gridUnit
@@ -95,7 +92,6 @@ Rectangle {
             spacing: units.smallSpacing*3
             anchors {
                 bottom: parent.bottom
-                // right: parent.right
                 margins: units.gridUnit
             }
             anchors.horizontalCenter: parent.horizontalCenter
