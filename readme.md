@@ -1,5 +1,5 @@
 ## Description
- A Fishybowl Splashscreen animation for Plasma 6
+ A Splashscreen animation of bob waltzing across the screen for Plasma 6
 ## Installation
  - Clone this repo, extract to '~/.local/share/plasma/ look-and-feel/'
  -  Download at https://store.kde.org/p/2192566/
