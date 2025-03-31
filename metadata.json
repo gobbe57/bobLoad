@@ -3,18 +3,18 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "null",
-                "Name": "KartikSindura"
+                "Email": "gobbe57@duck.com",
+                "Name": "gobbe"
             }
         ],
-        "Category": "",
-        "Description": "a fishy splashscreen for Plasma 6,Original repository at https://github.com/KartikSindura/fishy. i love this splashscreen, but that's SC is abadoned for Plasma 5. its experimental migration to plasma 6. if you had anny issue, please touch me at ln8ybrhq7@mozmail.com",
-        "Id": "fishy",
+        "Category": "pixelart",
+        "Description": "A cool splashscreen of bob running across the screeen for Plasma 6. Used code from https://github.com/ameriyana/fishy as template for a plasma 6 animated splashscreenn. Original repository at https://github.com/KartikSindura/fishy. If you have any issues, you can reach me at gobbe57@duck.com",
+        "Id": "bobLoad",
         "License": "GPLv3",
-        "Name": "Fishy",
-        "Website": "null"
+        "Name": "BobLoad",
+        "Website": "https://gobbe.neocities.org/bob"
     },
-    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "Keywords": "Desktop;Pixelart;Bob;Gobbe;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
     "X-Plasma-APIVersion": "2"
 }
 
